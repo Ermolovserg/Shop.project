@@ -1,0 +1,14 @@
+<div class="notSimilar-product">
+    <div>
+        <strong>
+            <%= item.title %>
+        </strong>
+        <div>
+            <%= item.price %>
+        </div>
+    </div>
+    <div class="remove-mark">
+        <label for="<%= item.id %>">Mark to add</label>
+        <input type="checkbox" id="<%= item.id %>" value="<%= item.id %>" name="itemsToAdd">
+    </div>
+</div>
